@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/thymewizards-api/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="thymewizards-app" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dtos" target="17" />
+      <module name="exceptions" target="17" />
+      <module name="sample-api" target="17" />
+      <module name="thymewizards-api2" target="17" />
+      <module name="thymewizards-config" target="17" />
+      <module name="thymewizards-model" target="17" />
+      <module name="thymewizards-service" target="17" />
+      <module name="thymewizards-web" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dtos" options="-parameters" />
+      <module name="exceptions" options="-parameters" />
+      <module name="sample-api" options="-parameters" />
+      <module name="thymewizards-app" options="-parameters" />
+      <module name="thymewizards-config" options="-parameters" />
+      <module name="thymewizards-model" options="-parameters" />
+      <module name="thymewizards-service" options="-parameters" />
+      <module name="thymewizards-web" options="-parameters" />
+    </option>
+  </component>
+</project>
